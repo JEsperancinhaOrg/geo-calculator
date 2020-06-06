@@ -1,1 +1,9 @@
+# Builds
 dist
+
+# IntelliJ
+*.iml
+.idea
+
+# Python
+python/geo_calculator/MANIFEST
