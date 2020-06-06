@@ -7,3 +7,4 @@ dist
 
 # Python
 python/geo_calculator/MANIFEST
+geo_calculator.egg-info

@@ -2,7 +2,6 @@ import unittest
 
 from geo_calculator import add_delta_in_km_to_coord, Coord
 
-
 class TestStringMethods(unittest.TestCase):
 
     def setUp(self):

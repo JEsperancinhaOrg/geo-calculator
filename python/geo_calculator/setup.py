@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 from distutils.core import setup
 
+from setuptools import find_packages
+
 setup(
     name='geo_calculator',
-    packages=['geo_calculator'],
+    package_dir={'': 'src'},
+    py_modules=["geo_calculator"],
     version='0.1.2',
     description='Multi function Geo Location calculator',
     author='João Esperancinha',
