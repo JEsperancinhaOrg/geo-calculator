@@ -1,6 +1,7 @@
 # Geo Calculator
 Multi function Geo Location calculator
 
+---
 ## References
 
 -   [Packages and modules > Contributing packages to the registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry)

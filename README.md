@@ -1,7 +1,7 @@
 # Geo Calculator
 Multi function Geo Location calculator
 
-
+---
 ## Python packaging commands
 
 ```bash
@@ -14,6 +14,7 @@ sudo pip3 install dist/geo_calculator-0.1.2.tar.gz
 twine upload dist/*
 ```
 
+---
 ## Install/Uninstall Python libraries
 
 ```bash
@@ -22,6 +23,7 @@ sudo pip uninstall geo_calculator
 sudo pip install geo_calculator
 ```
 
+---
 ## References
 
 -   [Packages and modules > Contributing packages to the registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry)
