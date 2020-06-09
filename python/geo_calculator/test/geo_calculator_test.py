@@ -1,6 +1,6 @@
 import unittest
 
-from geo_calculator import add_delta_in_km_to_coord, Coord
+from geo_calculator import Coord
 
 
 class CoordTest(unittest.TestCase):
@@ -9,12 +9,21 @@ class CoordTest(unittest.TestCase):
         pass
 
     def test_add_delta_in_km_to_coord(self):
+        # Near São Tomé e Principe
         coord = Coord(53.32055555555556, -1.7297222222222221)
 
-        new_coord = add_delta_in_km_to_coord(coord, 0, 10)
+        coord.add_delta_in_km_to_coord(0, 10)
 
-        self.assertEqual(53.32055555555556, new_coord.lat)
-        self.assertEqual(-1.579167190360281, new_coord.lon)
+        self.assertEqual(53.32055555555556, coord.lat)
+        self.assertEqual(-1.579167190360281, coord.lon)
+
+    def test_add_delta_in_km_to_coord_100_km(self):
+        coord = Coord(53.32055555555556, -1.7297222222222221)
+
+        coord.add_delta_in_km_to_coord(100, 100)
+
+        self.assertEqual(54.21987716147429, coord.lat)
+        self.assertEqual(-0.22417190360281203, coord.lon)
 
     def test_distance_to_in_meters_one_place(self):
         coord1 = Coord(52.0673599, 5.1102121)
