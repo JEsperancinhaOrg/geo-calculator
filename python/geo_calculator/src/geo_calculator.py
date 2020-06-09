@@ -11,7 +11,7 @@ class Coord:
         self.lat += lat
         self.lon += lon
 
-    def distanceTo(self, coord, planet_radius_km=6371000):
+    def distanceToInMeters(self, coord, planet_radius_km=6371000):
         lon1 = self.lon
         lat1 = self.lat
         lon2 = coord.lon
@@ -23,13 +23,23 @@ class Coord:
         a = math.sin(delta_phi / 2.0) ** 2 + math.cos(phi_1) * math.cos(phi_2) * math.sin(delta_lambda / 2.0) ** 2
         c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
         meters = planet_radius_km * c
-        km = meters / 1000.0
-
         meters = round(meters, 3)
-        km = round(km, 3)
+        return meters
 
-        print(f"Distance: {meters} m")
-        print(f"Distance: {km} km")
+    def distanceToInKilometers(self, coord, planet_radius_km=6371000):
+        lon1 = self.lon
+        lat1 = self.lat
+        lon2 = coord.lon
+        lat2 = coord.lat
+        phi_1 = math.radians(lat1)
+        phi_2 = math.radians(lat2)
+        delta_phi = math.radians(lat2 - lat1)
+        delta_lambda = math.radians(lon2 - lon1)
+        a = math.sin(delta_phi / 2.0) ** 2 + math.cos(phi_1) * math.cos(phi_2) * math.sin(delta_lambda / 2.0) ** 2
+        c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+        meters = planet_radius_km * c
+        km = round(meters / 1000, 3)
+        return km
 
     def __repr__(self):
         return "lat: " + str(self.lat) + " lon: " + str(self.lon)
@@ -63,7 +73,12 @@ def create_east_random_point(dest, radius):
 
 
 if __name__ == '__main__':
-    coord1 = Coord(52.0865204, 5.0378913)
-    coord2 = Coord(52.0688916, 5.1120921)
+    coord1 = Coord(52.0673599, 5.1102121)
 
-    coord1.distanceTo(coord2)
+    coord2 = Coord(52.08608282419939, 5.109284354540611)
+    print(coord1.distanceToInMeters(coord2))
+    print(coord1.distanceToInKilometers(coord2))
+
+    coord3 = Coord(52.366336822509766, 4.903250694274902)
+    print(coord1.distanceToInMeters(coord3))
+    print(coord1.distanceToInKilometers(coord3))
