@@ -7,11 +7,11 @@ class Coord:
         self.lat = lat
         self.lon = lon
 
-    def delta(self, lat, lon):
+    def delta_rads(self, lat, lon):
         self.lat += lat
         self.lon += lon
 
-    def distanceToInMeters(self, coord, planet_radius_km=6371000):
+    def distance_to_in_meters(self, coord, planet_radius_km=6371000):
         lon1 = self.lon
         lat1 = self.lat
         lon2 = coord.lon
@@ -26,7 +26,7 @@ class Coord:
         meters = round(meters, 3)
         return meters
 
-    def distanceToInKilometers(self, coord, planet_radius_km=6371000):
+    def distance_to_in_kilometers(self, coord, planet_radius_km=6371000):
         lon1 = self.lon
         lat1 = self.lat
         lon2 = coord.lon
@@ -70,15 +70,3 @@ def create_east_random_point(dest, radius):
     origin = Coord(dest.lat, dest.lon)
     origin = add_delta_in_km_to_coord(origin, +d_lat_km, d_lon_km)
     return origin
-
-
-if __name__ == '__main__':
-    coord1 = Coord(52.0673599, 5.1102121)
-
-    coord2 = Coord(52.08608282419939, 5.109284354540611)
-    print(coord1.distanceToInMeters(coord2))
-    print(coord1.distanceToInKilometers(coord2))
-
-    coord3 = Coord(52.366336822509766, 4.903250694274902)
-    print(coord1.distanceToInMeters(coord3))
-    print(coord1.distanceToInKilometers(coord3))
