@@ -10,7 +10,7 @@ setup(
     name='geo_calculator',
     package_dir={'': 'src'},
     py_modules=["geo_calculator"],
-    version='1.0.0-SNAPSHOT',
+    version='1.0.0',
     description='Multi function Geo Location calculator',
     author='João Esperancinha',
     author_email='jofisaes@gmail.com',
