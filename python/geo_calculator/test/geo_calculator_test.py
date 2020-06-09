@@ -37,5 +37,6 @@ class CoordTest(unittest.TestCase):
         self.assertEqual(4490.877, coord1.distance_to_in_meters(coord4))
         self.assertEqual(4.491, coord1.distance_to_in_kilometers(coord4))
 
+
 if __name__ == '__main__':
     unittest.main()
