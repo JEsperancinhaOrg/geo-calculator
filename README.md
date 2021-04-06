@@ -50,7 +50,7 @@ sudo pip install geo_calculator
 -   [How to Publish an Open-Source Python Package to PyPI @ Real Python](https://realpython.com/pypi-publish-python-package/)
 -   [Using TestPyPI](https://packaging.python.org/guides/using-testpypi/)
 
-## About me 👨🏽‍💻🚀
+## About me 👨🏽‍💻🚀🏳️‍🌈
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![Twitter Follow](https://img.shields.io/twitter/follow/joaofse?label=João%20Esperancinha&style=social "Twitter")](https://twitter.com/joaofse)
