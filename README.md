@@ -6,6 +6,12 @@
 [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Geo%20Calculator&color=informational)](https://github.com/JEsperancinhaOrg/geo-calculator)
 [![PyPI](https://img.shields.io/pypi/v/geo-calculator)](https://pypi.org/project/geo-calculator/)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3b6907b18b524d2c9de579e676ba5ba0)](https://www.codacy.com/gh/JEsperancinhaOrg/geo-calculator/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JEsperancinhaOrg/geo-calculator&amp;utm_campaign=Badge_Grade)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/3b6907b18b524d2c9de579e676ba5ba0)](https://www.codacy.com/gh/JEsperancinhaOrg/geo-calculator/dashboard?utm_source=github.com&utm_medium=referral&utm_content=JEsperancinhaOrg/geo-calculator&utm_campaign=Badge_Coverage)
+[![Coverage Status](https://coveralls.io/repos/github/JEsperancinhaOrg/geo-calculator/badge.svg?branch=master)](https://coveralls.io/github/JEsperancinhaOrg/geo-calculator?branch=master)
+[![codecov](https://codecov.io/gh/JEsperancinhaOrg/geo-calculator/branch/master/graph/badge.svg?token=B6TusIOEph)](https://codecov.io/gh/JEsperancinhaOrg/geo-calculator)
+
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinhaorg/geo-calculator.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinhaorg/geo-calculator.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/code-size/jesperancinhaorg/geo-calculator.svg)](#)
