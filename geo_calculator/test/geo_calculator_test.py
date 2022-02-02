@@ -1,6 +1,14 @@
+import os
+import sys
 import unittest
 
-from geo_calculator import Coord
+from geo_calculator.src.geo_calculator import Coord
+
+sys.path.insert(0, os.path.abspath(sys.path[0] + "/src"))
+sys.path.insert(0, os.path.abspath('../geo-calculator/src'))
+sys.path.insert(0, os.path.abspath('geo-calculator'))
+sys.path.insert(0, os.path.abspath('../src'))
+sys.path.insert(0, os.path.abspath('src'))
 
 
 class CoordTest(unittest.TestCase):

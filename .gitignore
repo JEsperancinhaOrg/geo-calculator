@@ -6,6 +6,11 @@ dist
 .idea
 
 # Python
-python/geo_calculator/MANIFEST
+geo_calculator/MANIFEST
 geo_calculator.egg-info
 *.pyc
+
+# Coverage
+.coverage
+coverage.json
+.pytest_cache

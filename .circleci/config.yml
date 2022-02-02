@@ -1,0 +1,26 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@1.2
+
+workflows:
+  sample:
+    jobs:
+      - build-and-test
+
+
+jobs:
+  build-and-test:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: Python upgrade
+          command: python3.8 -m pip install --upgrade pip
+      - python/install-packages:
+          pkg-manager: pip
+          app-dir: dicom_rest_service
+      - run:
+          name: Run tests
+          command: cd python/geo_calculator && pytest
