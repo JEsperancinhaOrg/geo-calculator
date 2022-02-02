@@ -6,6 +6,9 @@
 [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Geo%20Calculator&color=informational)](https://github.com/JEsperancinhaOrg/geo-calculator)
 [![PyPI](https://img.shields.io/pypi/v/geo-calculator)](https://pypi.org/project/geo-calculator/)
 
+[![CircleCI](https://circleci.com/gh/JEsperancinhaOrg/geo-calculator/tree/master.svg?style=svg)](https://circleci.com/gh/JEsperancinhaOrg/geo-calculator/tree/master)
+[![geo-calculator](https://github.com/JEsperancinhaOrg/geo-calculator/actions/workflows/python-package.yml/badge.svg)](https://github.com/JEsperancinhaOrg/geo-calculator/actions/workflows/python-package.yml)
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3b6907b18b524d2c9de579e676ba5ba0)](https://www.codacy.com/gh/JEsperancinhaOrg/geo-calculator/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JEsperancinhaOrg/geo-calculator&amp;utm_campaign=Badge_Grade)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/3b6907b18b524d2c9de579e676ba5ba0)](https://www.codacy.com/gh/JEsperancinhaOrg/geo-calculator/dashboard?utm_source=github.com&utm_medium=referral&utm_content=JEsperancinhaOrg/geo-calculator&utm_campaign=Badge_Coverage)

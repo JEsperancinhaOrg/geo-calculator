@@ -18,9 +18,6 @@ jobs:
       - run:
           name: Python upgrade
           command: python3.8 -m pip install --upgrade pip
-      - python/install-packages:
-          pkg-manager: pip
-          app-dir: geo_calculator
       - run:
           name: Run tests
-          command: cd geo_calculator && pytest
+          command: coverage run --source=geo_calculator -m pytest && coverage json
