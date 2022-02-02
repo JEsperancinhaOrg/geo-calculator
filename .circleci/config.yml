@@ -20,7 +20,7 @@ jobs:
           command: python3.8 -m pip install --upgrade pip
       - python/install-packages:
           pkg-manager: pip
-          app-dir: dicom_rest_service
+          app-dir: geo_calculator
       - run:
           name: Run tests
-          command: cd python/geo_calculator && pytest
+          command: cd geo_calculator && pytest
