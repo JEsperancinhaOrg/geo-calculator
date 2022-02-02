@@ -23,11 +23,6 @@
 
 Multi function Geo Location calculator
 
-This project is also the official supporting project of my blog post:
-
-[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "joaofilipesabinoesperancinha.nl")](http://joaofilipesabinoesperancinha.nl/blog/blog7-distance-out-of-space)
-[Implementing a Geo Location module using the Haversine formula](http://joaofilipesabinoesperancinha.nl/blog/blog7-distance-out-of-space)
-
 ---
 ## Python packaging commands
 
