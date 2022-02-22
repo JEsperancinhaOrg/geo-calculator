@@ -4,6 +4,8 @@
 
 [![Twitter URL](https://img.shields.io/twitter/url?logoColor=blue&style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial)](https://twitter.com/intent/tweet?text=%20Checkout%20this%20%40github%20repo%20by%20%40joaofse%20%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3A%20https%3A//github.com/JEsperancinhaOrg/geo-calculator)
 [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Geo%20Calculator&color=informational)](https://github.com/JEsperancinhaOrg/geo-calculator)
+
+[![GitHub release](https://img.shields.io/github/release/JEsperancinhaOrg/geo-calculator.svg)](#)
 [![PyPI](https://img.shields.io/pypi/v/geo-calculator)](https://pypi.org/project/geo-calculator/)
 
 [![CircleCI](https://circleci.com/gh/JEsperancinhaOrg/geo-calculator/tree/master.svg?style=svg)](https://circleci.com/gh/JEsperancinhaOrg/geo-calculator/tree/master)
@@ -57,14 +59,6 @@ sudo pip install geo_calculator
 
 ---
 
-## Buy me a coffee
-
-I hope you enjoyed this repository. If you did please buy me a coffee which enables me to constantly improve and make new free content regularly for everyone. Thank you so much!
-
-<a href="https://www.buymeacoffee.com/jesperancinha"><img height="50px" src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=jesperancinha&button_colour=046c46&font_colour=ffffff&font_family=Cookie&outline_colour=ffffff&coffee_colour=FFDD00"></a>
-
----
-
 ## References
 
 -   [Long Description](https://packaging.python.org/tutorials/packaging-projects/?highlight=long_description#description)
@@ -75,6 +69,12 @@ I hope you enjoyed this repository. If you did please buy me a coffee which enab
 -   [How to upload your python package to PyPi](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
 -   [How to Publish an Open-Source Python Package to PyPI @ Real Python](https://realpython.com/pypi-publish-python-package/)
 -   [Using TestPyPI](https://packaging.python.org/guides/using-testpypi/)
+
+## Buy me a coffee
+
+I hope you enjoyed this repository. If you did, you can optionally please buy me a coffee, which supports me in constantly improve and make new free content regularly for everyone. Thank you so much!
+
+[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=jesperancinha&button_colour=046c46&font_colour=ffffff&font_family=Cookie&outline_colour=ffffff&coffee_colour=FFDD00 "title")](https://www.buymeacoffee.com/jesperancinha)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
