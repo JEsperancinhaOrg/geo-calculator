@@ -23,18 +23,10 @@
 
 ---
 
-## Tech stack
+## Technologies used
 
----
-[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/python-50.png "Python")](https://www.python.org/)
-[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/nodejs-50.png "NodeJS")](https://nodejs.org/en/)
-[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/npm-50.png "NPM")](https://www.npmjs.com/)
-[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/python-package-manager-50.png "Python Package Manager")](https://pypi.org/)
----
+Please check the [TechStack.md](TechStack.md) file for details.
 
-Multi function Geo Location calculator
-
----
 ## Python packaging commands
 
 ```bash
